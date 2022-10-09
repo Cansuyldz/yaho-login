@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.ml {
+    margin-left: 15px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9f9fa;
+    text-decoration: none;
+    outline: none;
+    color: black;
+}
+
+.header {
+    width: 100%;
+    height: 90px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo {
+    margin-left: 30px;
+}
+
+.header-title {
+    margin-right: 30px;
+}
+
+.content {
+    width: 400px;
+    height: 600px;
+    margin: auto;
+    background-color: #fff;
+    margin-top: 10px;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 30%);
+    border: 1px solid transparent;
+    border-top: 1px solid #f1f1f5;
+    font-size: 16px;
+    outline: none;
+    padding: 15px;
+    color: black;
+}
+
+.content h3 {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.content h4 {
+    text-align: center;
+    font-size: 15px;
+}
+
+.content input[type="text"] {
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #d8dade;
+    text-indent: 20px;
+    color: #878c91;
+}
+
+.content .input-box {
+    display: flex;
+}
+
+.content input[type="mail"] {
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #d8dade;
+    text-indent: 20px;
+    color: #878c91;
+}
+
+.content input[type="password"] {
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid #d8dade;
+    text-indent: 10px;
+    color: #878c91;
+    outline: none;
+}
+
+.content select[name="number"] {
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid #d8dade;
+    text-indent: 10px;
+    color: #878c91;
+}
+
+.content .select-box {
+    display: flex;
+    text-align: left;
+}
+
+.content select:hover {
+    border-bottom: 1px solid #189dff;
+    outline: none;
+}
+
+.content input[type="tel"] {
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid #d8dade;
+    text-indent: 20px;
+    color: #878c91;
+}
+
+.content input:hover {
+    border-bottom: 1px solid #189dff;
+    outline: none;
+}
+
+.content .ay {
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid #d8dade;
+    text-indent: 10px;
+    color: #878c91;
+}
+
+.content .gün {
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #d8dade;
+    text-indent: 20px;
+    color: #878c91;
+}
+
+.content .yıl {
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    text-indent: 20px;
+    border-bottom: 1px solid #d8dade;
+    color: #878c91;
+}
+
+.content .cinsiyet {
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #d8dade;
+    text-indent: 20px;
+    color: #878c91;
+}
+
+.content .sub-information {
+    text-align: center;
+    font-family: 16px;
+    margin-top: 30px;
+}
+
+a {
+    color: #189dff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.content button {
+    border-radius: 18px;
+    width: 300px;
+    height: 50px;
+    background-color: #188fff;
+    border: none;
+    color: white;
+    margin-top: 25px;
+    cursor: pointer;
+    outline: auto;
+    margin-left: 50px;
+}
+
+.content .footer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+}
